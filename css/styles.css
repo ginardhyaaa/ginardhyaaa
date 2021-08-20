@@ -1,0 +1,181 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+.colored-section {
+  color: #fff;
+  background-color: #bfe299;
+  background-image: linear-gradient(315deg, #bfe299 0%, #66b5f6 74%);
+}
+
+.wave {
+  margin-top: -150px;
+}
+
+.waves {
+  margin-top: -50px;
+}
+
+.white-section {
+  background-color: #fff;
+  color: #000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+p {
+  color: grey;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+}
+
+.img-brand {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.navbar-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+/* Title Section */
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+span.name {
+  color: rgb(245, 122, 143);
+}
+
+/* Title Image */
+
+.title-image {
+  width: 35%;
+  position: absolute;
+  left: 55%;
+  margin-top: -50px;
+}
+
+/* Download Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.download-button:hover {
+  color: black;
+  background-color: #fff;
+}
+
+/* ABOUT ME */
+
+.about-img {
+  margin-top: -50px;
+  margin-left: -50px;
+  width: 450px;
+}
+
+#aboutme {
+  font-family: "Montserrat";
+  position: relative;
+}
+
+.aboutme-title {
+  font-size: 2.5rem;
+  text-align: start;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* SKILLS*/
+
+.shadow-img {
+  width: 7rem;
+  -webkit-filter: drop-shadow(3px 3px 3px #9b9b9b);
+  filter: drop-shadow(3px 3px 3px #9b9b9b);
+}
+
+/* CONTACT */
+
+.social-media {
+  margin: 20px;
+}
+
+.contact-link {
+  color: #000;
+}
+
+.contact-link:hover {
+  color: #afe477;
+}
+
+/* FOOTER */
+
+.container-footer {
+  padding: 2% 15%;
+}
+
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 2s ease;
+}
+
+.reveal.active {
+  transform: translateY(0px);
+  opacity: 1;
+}
