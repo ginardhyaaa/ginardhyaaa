@@ -1,0 +1,417 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+
+body {
+  font-family: "DM Sans";
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 51.5px;
+  margin-top: 40px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+p {
+  color: rgb(124, 124, 124);
+}
+
+/* HEAD */
+
+#header {
+  background: radial-gradient(at top left, #f5dae9 5%, #fce8f3 20%, #fff 40%);
+}
+
+.signup-page {
+  background: #fce8f3;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.navbar-link {
+  justify-content: end;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.nav-link {
+  color: #000;
+  text-decoration: none;
+}
+
+.signup-nav-link {
+  color: #000;
+  text-decoration: none;
+  font-weight: 700;
+  cursor: default;
+}
+
+.signup-nav-link:hover {
+  color: #000;
+}
+
+.nav-link:hover {
+  color: rgb(105, 107, 236);
+  text-decoration: none;
+}
+
+.navbar-toggler-icon {
+  content: url(Assets/Hamburger\ Menu.svg);
+  width: 100px;
+}
+
+.btn-link {
+  background-color: rgb(105, 107, 236);
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 14px;
+  border-radius: 5px;
+  padding: 15px 10px;
+}
+
+.btn-back {
+  background: #fff;
+  border: 2px;
+  border-color: rgb(211, 211, 211);
+  margin-right: 5px;
+}
+
+.btn-back:hover {
+  background-color: rgb(105, 107, 236);
+  color: white;
+}
+
+.light-font {
+  font-weight: 400;
+}
+
+.btn-link:hover {
+  background-color: #fff;
+  color: rgb(105, 107, 236);
+  border: 1px solid rgb(105, 107, 236);
+}
+
+.title-head {
+  display: flex;
+  justify-content: space-between;
+  margin: 70px auto;
+}
+
+.title-text,
+.sosmed-text {
+  width: 550px;
+}
+
+.title-text p {
+  margin: 25px 0;
+}
+
+.user-img {
+  margin-top: 30px;
+}
+
+.colored-text {
+  color: rgb(105, 107, 236);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.title-img img {
+  width: 400px;
+}
+
+/* SOCIAL */
+#social {
+  margin-top: 50px;
+}
+.sosmed {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.sosmed-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sosmed-icon img {
+  width: 400px;
+}
+
+.apps {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto;
+}
+
+.phone-text {
+  display: flex;
+  align-items: center;
+}
+
+.phone-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.phone-icon img {
+  width: 500px;
+}
+
+/* FOOTER */
+#footer {
+  margin-top: 5em;
+  margin-bottom: 2em;
+}
+
+.footer-text {
+  font-family: "DM Sans";
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.indie-brew {
+  width: 400px;
+}
+
+.footer-text h6 {
+  font-weight: 700;
+}
+
+.footer-text p {
+  font-weight: 500;
+  padding: 2px;
+}
+
+.footer-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-basis: 35em;
+}
+
+/* SIGNUP */
+.signup-text {
+  padding-right: 80px;
+  width: 600px;
+}
+.signup-text h1 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+.signup-info p {
+  margin-left: 5px;
+  font-weight: 500;
+  color: #000;
+}
+
+.signup-info {
+  display: flex;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.signup-form {
+  background: #fff;
+  border-radius: 5px;
+  padding: 40px;
+  width: 550px;
+}
+
+.signup-form h1 {
+  font-size: 25px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.signup-form .label-text {
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.signup-form .input-text {
+  width: 100%;
+  border: 1px solid rgb(211, 211, 211);
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.form-check-label {
+  font-weight: 500;
+}
+
+.terms-condition {
+  font-weight: 700;
+  color: rgb(105, 107, 236);
+}
+
+.btn-signup {
+  background-color: rgb(105, 107, 236);
+  padding: 10px;
+  width: 100%;
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.btn-signup:hover {
+  background-color: #fff;
+  color: rgb(105, 107, 236);
+  border: 1px solid rgb(105, 107, 236);
+}
+
+@media (max-width: 768px) {
+  .navbar-link {
+    margin-top: 20px;
+  }
+
+  nav .btn-link {
+    background: none;
+    border: none;
+    color: #000;
+    margin-left: 5px;
+    font-size: 14px;
+  }
+
+  nav .btn-link:hover {
+    background: none;
+    border: none;
+  }
+
+  .title-head,
+  .sosmed {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .title-img {
+    display: flex;
+    justify-content: center;
+  }
+
+  .sosmed {
+    row-gap: 50px;
+  }
+
+  .sosmed-icon {
+    justify-content: center;
+  }
+
+  .apps {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+  }
+
+  .phone-icon {
+    justify-content: center;
+  }
+
+  .footer-text {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .footer-link {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px 20px;
+    justify-content: space-around;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .signup-text {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .title-img img,
+  .sosmed-icon img,
+  .phone-icon img {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .title-text,
+  .sosmed-text,
+  .phone-text {
+    width: 100%;
+  }
+
+  .sosmed {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .footer-text {
+    display: grid;
+    row-gap: 10px;
+  }
+
+  .indie-brew {
+    display: grid;
+    grid-column: 1/3;
+    max-width: 360px;
+    margin-bottom: 20px;
+  }
+
+  .footer-link {
+    display: grid;
+    width: 100%;
+    grid-column: 1/3;
+    justify-content: space-between;
+  }
+
+  .signup-nav-link {
+    display: none;
+  }
+
+  .signup-text {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .signup-form {
+    width: 90%;
+    max-width: 550px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
