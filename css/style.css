@@ -553,7 +553,7 @@ nav {
   align-items: end;
 }
 
-@media (max-width:1300px) {
+@media screen and (max-width:1300px) {
   .header-text {
     display: flex;
     justify-content: start;
@@ -601,7 +601,7 @@ nav {
   } 
 }
 
-@media (max-width: 920px) {
+@media screen and (max-width: 920px) {
 
   .header-text {
     display: flex;
@@ -829,7 +829,7 @@ nav {
   }
 }
 
-@media (max-width: 450px) {
+@media screen and (max-width: 450px) {
   .nav-link ul{
     width: 100%;    
     background-color: rgb(240, 240, 240);
