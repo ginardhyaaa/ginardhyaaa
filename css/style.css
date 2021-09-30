@@ -1,0 +1,912 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
+
+:root {
+  --gradient: linear-gradient(
+    to right,
+    #fad5dd,
+    #f3d4e4,
+    #e9d3eb,
+    #dbd4ef,
+    #cdd5f1,
+    #c2d8f6,
+    #b4dbf9,
+    #a6dff9,
+    #93e6fe,
+    #7eeeff,
+    #6bf5fa,
+    #5ffbf1
+  );
+  --head-gradient: linear-gradient(
+    to right bottom,
+    #fad5dd,
+    #f3d4e4,
+    #e9d3eb,
+    #dbd4ef,
+    #cdd5f1,
+    #c2d8f6,
+    #b4dbf9,
+    #a6dff9,
+    #93e6fe,
+    #7eeeff,
+    #6bf5fa,
+    #5ffbf1
+  );
+
+  --contact-gradient: linear-gradient(
+    to left top,
+    #fad5dd,
+    #f3d4e4,
+    #e9d3eb,
+    #dbd4ef,
+    #cdd5f1,
+    #c2d8f6,
+    #b4dbf9,
+    #a6dff9,
+    #93e6fe,
+    #7eeeff,
+    #6bf5fa,
+    #5ffbf1
+  );
+
+  --font: color: rgb(51, 51, 51);
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins";
+  margin: 0;
+  padding: 0;
+  background-color: rgb(240, 240, 240);
+  color: rgb(51, 51, 51);
+}
+
+.container {
+  width: 80%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-text, .footer-text {
+  display: flex;
+}
+
+.navbar-text h1, .footer-text h1 {
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 5px;
+}
+
+.navbar-text h1:nth-child(1),
+.footer-text h1:nth-child(1) {
+  margin-top: 4px;
+  margin-right: 5px;
+}
+
+.navbar-text h1:nth-last-child(1),
+.footer-text h1:nth-last-child(1) {
+  display: flex;
+  margin-left: 5px;
+}
+
+.navbar-text hr, .footer-text hr {
+  transform: rotate(225deg);
+  height: 30px;
+  margin: 0;
+  border-top: 1px solid black;
+}
+
+.nav-link ul {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 35px;
+  align-items: center;
+}
+
+.nav-link ul li {
+  list-style: none;
+}
+
+.nav-link ul li a {
+  position: relative;
+  color: rgb(90, 89, 89);
+  text-decoration: none;
+  padding: 0 5px 10px 5px;
+}
+
+.nav-link ul li a:after {
+  content: "";
+  position: absolute;
+  background-image: var(--gradient);
+  width: 0;
+  height: 3px;
+  left: 0;
+  bottom: 0;
+  transition: 0.3s;
+}
+
+.nav-link ul li a:hover {
+  color: #ffb3a6;
+}
+
+.nav-link ul li a:hover:after {
+  width: 100%;
+}
+
+#menu-bar{
+  display: none;
+}
+
+/* HEADER */
+
+.head {
+  display: flex;
+  position: relative;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  padding: 30px;
+  row-gap: 0px;
+  background-image: var(--head-gradient);
+  border-radius: 20px;
+}
+
+.header-text {
+  display: flex;
+  justify-content: start;
+  width: 990px;
+}
+
+.header-text h1 {
+  font-weight: 700;
+  font-size: 100px;
+  letter-spacing: 50px;
+}
+
+.header-text h1:nth-child(1) {
+  margin-top: 40px;
+}
+
+.header-text h1:nth-last-child(1) {
+  display: flex;
+  flex-direction: column;
+  margin-top: 130px;
+  margin-left: 30px;
+}
+
+.header-text h1 .head-capt {
+  font-weight: 400;
+  letter-spacing: 17px;
+  font-size: 14px;
+  margin-top: -30px;
+  margin-left: 5px;
+}
+
+.header-text hr {
+  transform: rotate(225deg);
+  height: 300px;
+  margin: 0;
+  border-top: 1px solid black;
+}
+
+.header-img {
+  position: relative;
+  margin:0;
+  padding:0;
+  left: 40px;
+}
+
+.circle {
+  position: absolute;
+  left: 0;
+  top: 40px;
+  transform: scale(0.9);
+  border-radius: 50%;
+  margin:0;
+  padding:0;
+}
+
+.header-img img {
+  position: absolute;
+  width: 30rem;
+  margin-left: -550px;
+  padding: 0;
+}
+
+/* ABOUT */
+
+#about {
+  position: relative;
+  margin: 100px 0;
+}
+
+.about-content {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-title {
+  display: flex;
+  position: relative;
+  height: 270px;
+  width: 450px;
+}
+
+.curves {
+  position: absolute;
+  margin-left: -50px;
+  margin-top: 30px;
+  width: 350px;
+  height: 350px;
+  background-image: var(--gradient);
+  border-radius: 35% 65% 71% 29% / 48% 45% 55% 52%;
+}
+
+.about-title .a-big {
+  position: absolute;
+  font-size: 500px;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(51, 51, 51);
+  line-height: 400px;
+  margin-left: 30px;
+  margin-top: -20px;
+  padding: 0;
+  margin-bottom: 300px;
+}
+
+.subtitle {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.subtitle .about-h1 {
+  margin-top: 10px;
+  font-size: 60px;
+  font-weight: 300;
+  margin-left: 25px;
+}
+
+.subtitle .me {
+  margin-top: -78px;
+  margin-left: 25px;
+  font-size: 65px;
+  font-weight: 700;
+}
+
+.about-info {
+  display: flex;
+  align-items: center;
+  background-color: rgb(245, 243, 243);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 20px;
+  width: 500px;
+  padding: 20px 30px;
+}
+
+.about-info p {
+  text-align: justify;
+  font-weight: 300;
+}
+
+.about-img .saly {
+  position: absolute;
+  width: 17rem;
+  margin-left: -140px;
+  margin-top: 100px;
+  padding: 0;
+}
+
+/* PROJECT */
+.head-projects {
+  background: var(--head-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+  font-size: 200px;
+  letter-spacing: 30px;
+  text-align: center;
+}
+
+.projects-img {
+  display: grid;
+  grid-template-columns: auto auto;
+  row-gap: 20px;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.project-item {
+  position: relative;
+}
+
+.project-item img {
+  padding: 10px;
+  background-color: rgb(240, 240, 240);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 500px;
+  border-radius: 10px;
+}
+
+.project-item:hover {
+  filter: brightness(90%);
+  cursor: pointer;
+}
+
+.img-text {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  width: 100%;
+  border-radius: 10px;
+  background-color: rgb(240, 240, 240);
+}
+
+.img-text p:nth-child(1) {
+  font-weight: 700;
+  margin-bottom: 0;
+  margin-left: 10px;
+  padding: 0;
+}
+
+.img-text p:last-child {
+  font-size: 13px;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.html {
+  background-color: rgba(255, 184, 92, 0.514);
+  color: #d38003;
+  padding: 2px 5px;
+  font-weight: 700;
+  font-size: 12px;
+  border-radius: 5px;
+}
+
+.css {
+  background-color: rgba(92, 236, 255, 0.514);
+  color: #00505e;
+  padding: 2px 5px;
+  font-weight: 700;
+  font-size: 12px;
+  border-radius: 5px;
+}
+
+.bootstrap {
+  background-color: rgba(241, 92, 255, 0.514);
+  color: #34005e;
+  padding: 2px 5px;
+  font-weight: 700;
+  font-size: 12px;
+  border-radius: 5px;
+}
+
+/* SKILLS */
+
+#skills {
+  position: relative;
+  padding: 50px 0;
+}
+
+.skills-content {
+  display: flex;
+  justify-content: space-between; 
+  margin:0;
+  padding:0;
+}
+
+.skills-title {
+  display: flex;  
+  height: 350px;
+}
+
+.skills-title .s-big {
+  position: absolute;
+  font-size: 500px;
+  color: var(--font);
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: var(--font);  
+  margin-left: 30px;
+  margin-top: -200px;
+  padding: 0;
+}
+
+.subtitle {
+  display: flex;
+  flex-direction: column;
+  margin-left: 190px;
+}
+
+.subtitle .skills-h1 {
+  margin-top: 35px;
+  font-size: 60px;
+  font-weight: 300;
+}
+
+.subtitle .my-skills {
+  margin-top: -80px;
+  font-size: 65px;
+  font-weight: 700;
+}
+
+.curves2 {
+  position: absolute;
+  margin-left: -50px;
+  margin-top: 30px;
+  width: 350px;
+  height: 350px;
+  background-image: var(--gradient);
+  border-radius: 64% 36% 33% 67% / 36% 41% 59% 64%;
+  z-index: -1000;
+}
+
+.skills-list {
+  width: 60%;  
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+  align-items: center;
+}
+
+.skill-item{
+  background-color: #fff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 20px;
+  padding: 20px 30px;
+}
+
+.skill-item ion-icon{
+  background-image: var(--head-gradient);
+  border-radius: 50%;
+  padding: 8px;
+  margin:0;
+}
+
+.item-title{
+  font-weight: 700;
+  margin:0;
+  padding: 0;
+}
+
+.item-info{
+  font-size: 13px;
+  margin:0;
+  padding:0;
+}
+
+.skills-text .saly-15 {
+  position: absolute;
+  width: 7rem;
+  margin-left: 270px;  
+  margin-top: -300px;
+  padding: 0;
+}
+
+/* CONTACT */
+.contact {  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  padding: 30px 50px;
+  row-gap: 0px;
+  background-image: var(--contact-gradient);
+  border-radius: 20px;
+}
+
+.contact-icon{
+  display: flex;
+  justify-content: space-evenly;
+  column-gap: 20px;
+}
+
+.contact-icon a{
+  color: var(--font);
+}
+
+.contact-icon a:hover{
+  color: #eb9e90;
+}
+
+.contact .saly-12 {
+  position: absolute;
+  width: 25rem;  
+  margin-left: -430px;
+  margin-top: 50px;
+  padding: 0;
+}
+
+/* FOOTER */
+#footer{
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+#footer .container{
+  padding-bottom: 10px;
+}
+
+.footer-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+@media (max-width:1300px) {
+  .header-text {
+    display: flex;
+    justify-content: start;
+    width: 945px;
+  }
+  
+  .header-text h1 {
+    font-weight: 700;
+    font-size: 90px;
+    letter-spacing: 40px;
+  }
+  
+  .header-text h1 .head-capt {
+    font-weight: 400;
+    letter-spacing: 15px;
+    font-size: 12px;
+    margin-top: -30px;
+    margin-left: 5px;
+  }
+  
+  .about-img .saly {
+    position: absolute;
+    width: 17rem;
+    margin-left: -115px;
+    margin-top: 100px;
+    padding: 0;
+  }
+
+  .head-projects {
+    background: var(--head-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+    font-size: 180px;
+    letter-spacing: 30px;
+    text-align: center;
+  }
+
+  .projects-img {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    justify-content: space-between;
+    margin-top: 50px;
+  } 
+}
+
+@media (max-width: 920px) {
+
+  .header-text {
+    display: flex;
+    justify-content: start;
+    width: 430px;
+  }
+  
+  .header-text h1 {
+    font-weight: 700;
+    font-size: 60px;
+    letter-spacing: 30px;
+  }
+  
+  .header-text h1 .head-capt {
+    font-weight: 400;
+    letter-spacing: 7.5px;
+    font-size: 12px;
+    margin-top:-10px;    
+    margin-left: 5px;
+  }
+
+  .header-img {
+    position: relative;
+    margin:0;
+    padding:0;
+    left: 340px;    
+    margin-top: -28px;
+  }
+  
+  .circle {    
+    transform: scale(0.8);    
+  }
+  
+  .header-img img {
+    position: absolute;
+    width: 25rem;    
+  }
+
+  .header-img .saly-10{
+    width: 20.5rem;
+    margin-top: 70px;
+    margin-left: -515px;    
+  }
+
+  .about-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .curves {
+    position: absolute;
+    margin-left: -55px;
+    margin-top:-20px;
+    width: 350px;
+    height: 350px;
+    background-image: var(--gradient);
+    border-radius: 35% 65% 71% 29% / 48% 45% 55% 52%;
+  }
+
+  .about-title {
+    display: flex;
+    position: relative;
+    height: 270px;
+    width: 450px;
+  }
+
+  .about-title .a-big {
+    position: absolute;
+    font-size: 400px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(51, 51, 51);
+    line-height: 200px;
+    margin-left: 30px;
+    margin-top: -50px;
+    padding: 0;
+    margin-bottom: 300px;
+  }
+  
+  .subtitle {
+    display: flex;
+    flex-direction: row;    
+    margin-top: 50px;
+  }
+  
+  .subtitle .about-h1 {
+    margin-top: -50px;
+    font-size: 60px;
+    font-weight: 300;
+    margin-left: -27px;
+  }
+  
+  .subtitle .me {
+    margin-top: -50px;
+    margin-left: 15px;
+    font-size: 60px;
+    font-weight: 700;
+  }
+
+  .about-info {
+    display: flex;
+    align-items: center;
+    background-color: rgb(245, 243, 243);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+    width: 580px;
+    padding: 20px 30px;
+    z-index: 999;
+    margin-top: -150px;
+  }
+  
+  .about-info p {
+    text-align: justify;
+    font-weight: 300;
+  }
+  
+  .about-img .saly {
+    position: absolute;
+    width: 14rem;
+    margin-left: 545px;
+    margin-top: -93px;
+    padding: 0;
+    z-index: 1000;
+  }
+
+  .head-projects {
+    background: var(--head-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+    font-size: 130px;
+    letter-spacing: 15px;
+    text-align: center;
+  }
+
+  .projects-img {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .skills-title {
+    display: flex;  
+    height: 350px;
+    margin-top: 200px;
+  }
+  
+  .skills-title .s-big {
+    position: absolute;
+    font-size: 500px;
+    color: var(--font);
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--font);  
+    margin-left: 0;
+    margin-top: -250px;
+    padding: 0;
+    z-index:-1;
+  }
+  
+  .skills-title .subtitle {
+    display: flex;
+    flex-direction: column;    
+    margin-left: 120px;
+  }
+  
+  .subtitle .skills-h1 {
+    margin-top: 35px;
+    font-size: 60px;
+    font-weight: 300;
+  }
+  
+  .subtitle .my-skills {
+    margin-top: -80px;
+    font-size: 65px;
+    font-weight: 700;
+  }
+  
+  .curves2 {
+    position: absolute;
+    margin-left: -50px;
+    margin-top: 130px;
+    width: 350px;
+    height: 350px;
+    background-image: var(--gradient);
+    border-radius: 64% 36% 33% 67% / 36% 41% 59% 64%;
+    z-index: -1000;
+  }
+  
+  .skills-list {
+    width: 60%;  
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .item-info{
+    font-size: 12px;
+    margin:0;
+    padding:0;
+  }
+  
+  .skills-text .saly-15 {
+    position: absolute;
+    width: 7rem;
+    margin-left: 200px;  
+    margin-top: -350px;
+    padding: 0;
+  }
+
+  .contact-head h1{
+    font-size: 35px;
+  }
+
+  .contact .saly-12 {
+    position: absolute;
+    width: 15rem;  
+    margin-left: -250px;
+    margin-top: 90px;
+    padding: 0;
+  }
+}
+
+@media (max-width: 678px) {
+  .nav-link ul{
+    width: 100%;    
+    background-color: rgb(240, 240, 240);
+    position: absolute;
+    top: 70px;
+    right: 0;       
+    flex-direction: column;
+    gap: 10px;
+    font-size: 15px;
+    z-index: 2;        
+  }
+  .nav-link ul li{
+    display: none;    
+  }
+  
+  #menu-bar{
+    display: block;
+  }
+
+  .head{
+    margin-top: 20px;
+    justify-content: center;
+  }
+  
+  .header {
+    display: flex;         
+    margin-top: 30px;    
+    padding: 30px;
+    row-gap: 0px;
+    background-image: var(--head-gradient);
+    border-radius: 20px;
+  }
+  
+  .header-text {
+    display: flex;
+    justify-content: center;    
+  }
+
+  .header-img{
+    display: none;
+  }
+
+  .about-info {
+    display: flex;
+    align-items: center;
+    background-color: rgb(245, 243, 243);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+    width: 550px;
+    padding: 20px 30px;
+  }
+
+  .about-img .saly {
+    position: absolute;
+    width: 14rem;
+    margin-left: 535px;
+    margin-top: -93px;
+    padding: 0;
+    z-index: 1000;
+  }
+
+  .head-projects {
+    background: var(--head-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+    font-size: 120px;
+    letter-spacing: 10px;
+    text-align: center;
+  }
+
+  .skills-list {
+    width: 60%;  
+    display: grid;
+    grid-template-columns: 200px 200px;
+    gap: 20px;
+    align-items: center;
+  }
+
+}

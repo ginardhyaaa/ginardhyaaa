@@ -1,243 +1,255 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Gina's Portfolio</title>
+    <!-- SLICK CAROUSEL -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    />
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <title>Gina's Web Profile</title>
-  
-  <!-- google fonts -->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700;900&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
-  <!-- Bootstraps -->  
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
-
-  <!-- Fontawesome -->
-  <script src="https://kit.fontawesome.com/5f34031897.js" crossorigin="anonymous"></script>
-
-  <!-- CSS Stylesheet -->
-  <link rel="stylesheet" href="css/styles.css">
-</head>
-
-<body>
-
-  <section class="colored-section" id="title">
-
-    <div class="container-fluid">
-    <!-- Nav Bar -->
-
-    <nav class="navbar navbar-expand-lg navbar-dark ">
-        <a class="navbar-brand" href="#">
-          <img src="images/g.png" class="img-brand rounded-circle" alt="">ginardhya</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul class="navbar-nav ms-auto">
-          <li class="navbar-item">
-            <a class="nav-link" href="#aboutme">About Me</a>
-          </li>
-          <li class="navbar-item">
-            <a class="nav-link" href="#skills">Skills</a>
-          </li>
-          <li class="navbar-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-        </ul>
-        </div>
-      </nav> 
-    
-    <!-- Title -->
-
-    <div class="row">
-    <div class="col-lg-6">
-      <h1 class="big-heading">Hi, I'm <span class="name">Gina</span> Ardhya Pradipta</h1>
-      <h5 class="fw-normal">I'm a Frontend Developer</h5>
-      <a href="https://github.com/ginardhyaaa/ginardhyaaa.github.io.git" class="btn btn-dark btn-lg download-button">
-        <i class="fab fa-github me-2"></i> Github
-      </a>      
-    </div>
-    <div class="col-lg-6">
-      <img class="title-image" src="images/female_developer.png" alt="web developer">
-    </div>
-  </div>
-</div>
-<svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffff" fill-opacity="1" 
-  d="M0,224L40,234.7C80,245,160,267,240,256C320,245,400,203,480,176C560,149,640,139,720,160C800,181,880,235,960,
-  256C1040,277,1120,267,1200,245.3C1280,224,1360,192,1400,176L1440,160L1440,320L1400,320C1360,320,1280,320,1200,
-  320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,
-  80,320,40,320L0,320Z"></path></svg>
-</section>
-
-
-  <!-- ABOUT ME -->
-
-  <section class="white-section reveal" id="aboutme">
-
-    <h2 class="section-heading">About Me</h2>
-    <div class="container-fluid">
-
-    <div class="row">
-      <div class="col-lg-6">
-        <img src="images/female dev.png" class="about-img" alt="developer">
-      </div>
-
-      <div class="col-lg-6">        
-        <h2 class="aboutme-title mb-4">Hi! My name's Gina Ardhya Pradipta,</h2>
-        <p style="text-align: justify;">          
-          I am hard working, fast learner, motivated, and humble person, who passionate in Web Developmet. 
-          Especially in Frontend Developmet.
-          I love to learn new things and I'm a positive person who likes to work with others.
-          </p>
-          <p style="text-align: justify;">
-            I love to code! Codes really calms me, when coding I always been drawn to it and forget about my surroundings! 
-          </p>
-      </div>
-    </div>
-  </div>
-  </section>
-
-
-  <!-- SKILLS -->
-
-  <section class="colored-section reveal" id="skills">   
-    <svg class="waves" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" 
-      d="M0,96L48,112C96,128,192,160,288,176C384,192,480,192,576,170.7C672,149,768,107,864,101.3C960,96,
-      1056,128,1152,138.7C1248,149,1344,139,1392,133.3L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,
-      0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>    
-    <h2 class="section-heading">SKILLS</h2>    
-    <div class="container-fluid">
-      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>         
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active px-5 mb-5">
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-              <div class="col">
-                <div class="card text-dark shadow-lg"> 
-                  <img src="images/html5.png" class="mx-auto my-3 shadow-img" alt="">
-                  <center>          
-                  <div class="card-body">            
-                    <h1 class="card-title">HTML</h1>                    
-                  </div>
-                </div>
-              </center>
-              </div>
-              <div class="col">
-                <div class="card text-dark shadow-lg">
-                  <img src="images/css.png" class="mx-auto my-3 shadow-img" alt="">
-                  <center>          
-                  <div class="card-body">            
-                    <h1 class="card-title">CSS</h1>                    
-                  </div>
-                </div>
-              </center>
-              </div>
-              <div class="col">
-                <div class="card text-dark shadow-lg"> 
-                  <img src="images/js.png" class="mx-auto my-3 shadow-img" alt="">
-                  <center>          
-                  <div class="card-body">            
-                    <h1 class="card-title">Javascript</h1>                    
-                  </div>
-                </div>
-              </center>      
-              </div>             
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <div class="navbar-brand">
+            <div class="navbar-text">
+              <h1>GI</h1>
+              <hr />
+              <h1>NA</h1>
             </div>
           </div>
-          <div class="carousel-item px-5 mb-5">
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-              <div class="col">
-                <div class="card text-dark shadow-lg"> 
-                  <img src="images/php.png" style="width:8.5rem" class="mx-auto mb-4 mt-5 shadow-img" alt="">
-                  <center>          
-                  <div class="card-body">            
-                    <h1 class="card-title">PHP</h1>                    
-                  </div>
-                </div>
-              </center>
-              </div>
-              <div class="col">
-                <div class="card text-dark shadow-lg">
-                  <img src="images/ci.png" style="width:6rem" class="mx-auto mb-3 mt-4 shadow-img" alt="">
-                  <center>          
-                  <div class="card-body">            
-                    <h2 class="card-title">Codeigniter</h2>                  
-                  </div>
-                </div>
-              </center>
-              </div>
-              <div class="col">
-                <div class="card text-dark shadow-lg"> 
-                  <img src="images/mysql.png" class="mx-auto my-3 shadow-img" alt="">
-                  <center>          
-                  <div class="card-body">            
-                    <h1 class="card-title">MySQL</h1>                    
-                  </div>
-                </div>
-              </center>      
-              </div>             
+          <div class="nav-link">
+            <ul>
+              <li><a href="#about">About</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <ion-icon id="menu-bar" name="menu-outline" size="large"></ion-icon>
+        </nav>
+        <div class="head">
+          <div class="header">
+            <div class="header-text">
+              <h1>GI</h1>
+              <hr />
+              <h1>NA<span class="head-capt"> portfolio</span></h1>
             </div>
-          </div>         
+          </div>
+          <div class="header-img">
+            <img src="images/Ellipse.png" class="circle" alt="" />
+            <img class="saly-10" src="images/Saly-10.svg" alt="" />
+          </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>    
-  </div>
-  </section>
-
-
-  <!-- Contact -->
-  <section class="white-section reveal" id="contact">
-    <div class="container-fluid">
-      <h1 class="big-heading">Reach Me on My Social Here!</h1>
-        <div class="container mt-4">
-          <a href="https://github.com/ginardhyaaa/ginardhyaaa.github.io.git" class="contact-link"><i class="social-media fab fa-github fa-2x"></i></a>
-          <a href="https://www.instagram.com/ginardhyaaa/" class="contact-link"><i class="social-media fab fa-instagram fa-2x"></i></a>
-          <a href="mailto:ginardhya@gmail.com" class="contact-link"><i class="social-media fas fa-envelope fa-2x"></i></a>
       </div>
-    </div>
-  </section>
+    </header>
 
+    <section id="about">
+      <div class="container">
+        <div class="about-content">
+          <span class="curves"></span>
+          <div class="about-title">
+            <h1 class="a-big">A</h1>
+            <div class="subtitle">
+              <h1 class="about-h1">ABOUT</h1>
+              <h1 class="me">ME</h1>
+            </div>
+          </div>
+          <div class="about-info">
+            <p>
+              I am hard working, fast learner, motivated, and humble person, who
+              passionate in Web Developmet. Especially in Frontend Developmet. I
+              love to learn new things and I'm a positive person who likes to
+              work with others.<br /><br />I love to code! Codes really calms
+              me, when coding I always been drawn to it and forget about my
+              surroundings!
+            </p>
+          </div>
+          <div class="about-img">
+            <img class="saly" src="images/Saly-38.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <!-- Footer -->
+    <section id="projects">
+      <div class="container">
+        <h1 class="head-projects">projects</h1>
+        <div class="projects-img">
+          <a
+            href="https://ginardhyaaa.github.io/Fiber/index.html"
+            target="_blank"
+          >
+            <div class="project-item">
+              <img
+                src="images/Fiber-Landing-Page.png"
+                class="fiber"
+                alt="Fiber Landing Page"
+              />
+              <div class="img-text">
+                <p>Fiber Landing Page</p>
+                <p>
+                  made with <span class="html">HTML</span>
+                  <span class="css">CSS</span>
+                  <span class="bootstrap">BOOTSTRAP</span>
+                </p>
+              </div>
+            </div>
+          </a>
+          <a
+            href="https://ginardhyaaa.github.io/project/indie-brew/index.html"
+            target="_blank"
+          >
+            <div class="project-item">
+              <img
+                src="images/Indie-Brew.png"
+                class="indie-brew"
+                width="500px"
+                alt=""
+              />
+              <div class="img-text">
+                <p>Indie Brew Landing Page</p>
+                <p>
+                  made with <span class="html">HTML</span>
+                  <span class="css">CSS</span>
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
 
-  <footer class="bg-light" id="footer">
-    <div class="container-footer">          
-    <p>© Copyright 2021 ginardhya</p>
-  </div>
-  </footer>
+    <section id="skills">
+      <div class="container">
+        <div class="skills-content">
+          <div class="skills-list">
+            <div class="skill-item">
+              <ion-icon name="logo-html5"></ion-icon>
+              <p class="item-title">HTML</p>
+              <p class="item-info">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                aliquid praesentium.
+              </p>
+            </div>
+            <div class="skill-item">
+              <ion-icon name="logo-css3"></ion-icon>
+              <p class="item-title">CSS</p>
+              <p class="item-info">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                aliquid praesentium.
+              </p>
+            </div>
+            <div class="skill-item">
+              <ion-icon name="logo-javascript"></ion-icon>
+              <p class="item-title">Javascript</p>
+              <p class="item-info">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                aliquid praesentium.
+              </p>
+            </div>
+            <div class="skill-item">
+              <ion-icon class="icon" name="code-slash-outline"></ion-icon>
+              <p class="item-title">PHP</p>
+              <p class="item-info">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                aliquid praesentium.
+              </p>
+            </div>
+            <div class="skill-item">
+              <ion-icon name="albums-outline"></ion-icon>
+              <p class="item-title">MySQL</p>
+              <p class="item-info">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                aliquid praesentium.
+              </p>
+            </div>
+            <div class="skill-item">
+              <ion-icon name="albums-outline"></ion-icon>
+              <p class="item-title">MySQL</p>
+              <p class="item-info">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                aliquid praesentium.
+              </p>
+            </div>
+          </div>
+          <div class="skills-text">
+            <span class="curves2"></span>
+            <div class="skills-title">
+              <h1 class="s-big">S</h1>
+              <div class="subtitle">
+                <h1 class="skills-h1">MY</h1>
+                <h1 class="my-skills">SKILLS</h1>
+              </div>
+            </div>
+            <img class="saly-15" src="images/Saly-15.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
 
-<!-- SCRIPT -->
-<script type="text/javascript">
-	window.addEventListener('scroll', reveal);
+    <section id="contact">
+      <div class="container">
+        <div class="contact">
+          <img class="saly-12" src="images/Saly-12.svg" alt="" />
+          <div class="contact-head">
+            <h1>Reach Me on My Social Here!</h1>
+          </div>
+          <div class="contact-icon">
+            <a
+              href="https://github.com/ginardhyaaa/ginardhyaaa.github.io"
+              target="_blank"
+              ><ion-icon name="logo-github" size="large"></ion-icon
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/gina-ardhya-pradipta"
+              target="_blank"
+              ><ion-icon name="logo-linkedin" size="large"></ion-icon
+            ></a>
+            <a href="https://www.instagram.com/ginardhyaaa/" target="_blank"
+              ><ion-icon name="logo-instagram" size="large"></ion-icon
+            ></a>
+            <a href="mailto:ginardhya@gmail.com"
+              ><ion-icon name="mail-outline" size="large"></ion-icon
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-	function reveal() {
-		var reveals = document.querySelectorAll('.reveal');
+    <section id="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-text">
+            <h1>GI</h1>
+            <hr />
+            <h1>NA</h1>
+          </div>
+          <p><span>&copy;</span>2021 ginardhya</p>
+        </div>
+      </div>
+    </section>
 
-		for (var i = 0; i < reveals.length; i++) {
-			var windowheight = window.innerHeight;
-			var revealtop = reveals[i].getBoundingClientRect().top;
-			var reavealpoint = 150;
-
-			if (revealtop < windowheight - reavealpoint) {
-				reveals[i].classList.add('active');
-			} else {
-				reveals[i].classList.remove('active');
-			}
-		}
-	}
-</script>
-
-</body>
-
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="index.js"></script>
+    <!-- ionicon -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
 </html>
