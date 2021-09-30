@@ -829,7 +829,7 @@ nav {
   }
 }
 
-@media (max-width: 678px) {
+@media (max-width: 450px) {
   .nav-link ul{
     width: 100%;    
     background-color: rgb(240, 240, 240);
