@@ -400,6 +400,15 @@ nav {
   border-radius: 5px;
 }
 
+.js {
+  background-color: rgba(252, 255, 92, 0.514);
+  color: #5d5e00;
+  padding: 2px 5px;
+  font-weight: 700;
+  font-size: 12px;
+  border-radius: 5px;
+}
+
 /* SKILLS */
 
 #skills {
@@ -842,6 +851,7 @@ nav {
     z-index: 2;        
   }
   .nav-link ul li{
+    padding-bottom: 20px;
     display: none;    
   }
   
