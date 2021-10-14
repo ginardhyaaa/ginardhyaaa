@@ -400,9 +400,9 @@ nav {
   border-radius: 5px;
 }
 
-.js {
-  background-color: rgba(252, 255, 92, 0.637);
-  color: #5e5f13;
+.javascript {
+  background-color: rgb(255, 239, 92);
+  color: #5f5413;
   padding: 2px 5px;
   font-weight: 700;
   font-size: 12px;
